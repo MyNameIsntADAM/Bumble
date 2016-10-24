@@ -36,8 +36,77 @@
     background-image: url(http://placekitten.com/241/241);
     }
 
+@media (min-width: 768px) {
 .hexagon1 {
     width: 400px;
     height: 200px;
-    margin: 0 0 0 -80px;
+    margin: 0 0 0 -74px;
     }
+}
+
+@media (max-height: 768px) {
+	.hexagon1 {
+		width: 400px;
+		height: 200px;
+		margin: 0 0 0 -42px;
+	}
+}
+/*BUMBLE THEME COLORS*/	
+.bumble-pink {
+	color: #F79DB3;
+}
+.bumble-green {
+	color: #7AAC80;
+}
+.bumble-yellow {
+	color: #FFEB7E;
+}
+.bumble-gray {
+	color: #333;
+}
+.bumble-pink:hover {
+	color: #E79DB3;
+}
+
+.bumble-icon:hover .bumble-pink {
+	color: #7AAC80;
+}
+	
+#orangeblossomhoney {
+	background-image: url("../img/products/honeystix.jpg")
+}
+
+#tumblesticks {
+	background-image: url("../img/products/honeystix.jpg");
+}
+
+#lipbalm {
+	background-image: url("../img/products/honeystix.jpg");	
+}
+
+#barsoap {
+	background-image: url("../img/products/honeystix.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

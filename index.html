@@ -29,14 +29,14 @@
         <div class="container nav-top">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" id="brand-logo" href="#page-top"><img src="img/bumblelogo.png"></img></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -49,6 +49,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">What's the Buzz?</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Our Team</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -73,24 +76,32 @@
 
 	<!-- Portfolio Grid Section -->
     <section id="portfolio">
-        <div class="container" style="padding-left: 50px">
+        <div class="container mobile-center">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="shop.html" style="text-decoration-color: black"><h2 class="section-heading" style="color: black">Check out our shop!</h2></a>
+                    <a class="section-heading" href="shop.html" style="text-decoration-color: black">Check out our shop!</a>
                     <h3 class="section-subheading text-muted">Our customers love these products and more!</h3>
                 </div>
             </div>
 			<div class="col-md-3">
-				<div class="hexagon hexagon1"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
+				<div class="hexagon hexagon1"><div class="hexagon-in1"><div id="orangeblossomhoney" class="hexagon-in2"></div></div></div>
+				<a href="shop.html"><h3 class="bumble-green center">Orange Blossom Honey</h3></a>
+				<h2 class="bumble-green price center">$16.00</h2>
 			</div>
 			<div class="col-md-3">
-				<div class="hexagon hexagon1"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
+				<div class="hexagon hexagon1"><div class="hexagon-in1"><div id="tumblesticks" class="hexagon-in2"></div></div></div>
+				<a href="shop.html"><h3 class="bumble-green center">Bumble Honey Sticks</h3></a>
+				<h2 class="bumble-green price center">$5.00</h2>
 			</div>
 			<div class="col-md-3">
-				<div class="hexagon hexagon1"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
+				<div class="hexagon hexagon1"><div class="hexagon-in1"><div id="lipbalm" class="hexagon-in2"></div></div></div>
+				<a href="shop.html"><h3 class="bumble-green center">Bumble Honey Lip Balm</h3></a>
+				<h2 class="bumble-green price center">$2.00</h2>
 			</div>
 			<div class="col-md-3">
-				<div class="hexagon hexagon1"><div class="hexagon-in1"><div class="hexagon-in2"></div></div></div>
+				<div class="hexagon hexagon1"><div class="hexagon-in1"><div id="barsoap" class="hexagon-in2"></div></div></div>
+				<a href="shop.html"><h3 class="bumble-green center">Bumble Honey Bar Soap</h3></a>
+				<h2 class="bumble-green price center">$6.00</h2>
 			</div>
         </div>
     </section>
@@ -101,33 +112,41 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">From honey sticks to pollination, Bumble is your number one option for all things honey.</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
+					<a class="bumble-icon" href="shop.html">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-circle fa-stack-2x text-primary bumble-pink"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+					</a>
+                    <a class="bumble-icon" href="shop.html"><h4 class="service-heading">Online Shopping</h4></a>
+                    <p class="text-muted">Shop with the satisfaction of knowing that each item you purchase through Bumble will not only taste delicious, but contribute to the conservation of honeybee populations worldwide!</p>
                 </div>
                 <div class="col-md-4">
+					<a class="bumble-icon" href="pollination.html">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x text-primary bumble-pink"></i>
+						<!-- This is totally not a good icon. Stole it from 'Forumbee' which is a forum site's logo.-->
+                        <i class="fa fa-forumbee fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+					</a>
+                    <a class="bumble-icon" href="pollination.html"><h4 class="service-heading">Pollination Services</h4></a>
+                    <p class="text-muted">Every single plant in the world is, in one way or another, pollinated with the help of bees. Bumble offers affordable bee pollination services for
+						any and all agriculture businesses, from farms to gardens. Get your plot quoted today!</p>
                 </div>
                 <div class="col-md-4">
+					<a class="bumble-icon" href="https://play.google.com/store?hl=en">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x text-primary bumble-pink"></i>
+                        <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+					</a>
+                    <a class="bumble-icon" href="https://play.google.com/store?hl=en"><h4 class="service-heading">Mobile App</h4></a>
+                    <p class="text-muted">Stay connected on all things honey, all things bees, and all things Bumble! Download our free and totally not annoying mobile app from the Appstore or on the Google Play Store!</p>
                 </div>
             </div>
         </div>
@@ -221,16 +240,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">The Bumble Team</h2>
+                    <h3 class="section-subheading text-muted">The images should be squares if we don't want them to be ovally.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <img src="http://ironmikemag.com/wp-content/uploads/2014/05/Salesman-1.png" class="img-responsive img-circle" alt="">
+                        <h4>Dusty Rhodes</h4>
+                        <p class="text-muted">Head of marketing</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -243,9 +262,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <img src="http://www.tellyouall.com/wp-content/uploads/2014/04/Get-Rich.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Richie Rich</h4>
+                        <p class="text-muted">CEO</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -258,9 +277,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img src="https://pmcvariety.files.wordpress.com/2014/04/08-spider-man-2002.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Adam Hazelton</h4>
+                        <p class="text-muted">Webmaster</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -274,7 +293,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted"></p>
                 </div>
             </div>
         </div>
@@ -578,7 +597,7 @@ International firm website for educational purposes only for 2016-17</span>
     <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/agency.js"></script>
 
 </body>
 

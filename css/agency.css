@@ -8,6 +8,13 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto Slab';
 }
+
+.eccentric {
+	font-family: Eccentric;
+	font-weight: normal;
+	font-size: normal;
+}
+
 .text-muted {
   color: #777777;
 }
@@ -43,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Eccentric;
+  font-family: 'Roboto Slab';
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -147,6 +154,39 @@ fieldset[disabled] .btn-xl.active {
   color: #FFEB7E;
   background-color: white;
 }
+@media (min-width: 768px) {
+	.center {
+		margin: auto;
+		width: 50%;
+		text-align: center;
+	}	
+}
+
+@media (max-width: 767px) {
+	.center {
+		margin: auto;
+		width: 100%;
+		text-align: center;
+	}	
+}
+
+.mobile-center {
+	padding-left: 15px;
+}
+
+.vertical-line {
+	border-bottom: thick solid #FF0000;
+}
+
+.price {
+	margin-top: 12px;
+	border-top: 1px solid black;
+	line-height: 50px;
+}
+
+.product-description {
+	
+}
 
 /*This is for vertically centering the navbar contents*/
 .nav-top {
@@ -178,19 +218,19 @@ fieldset[disabled] .btn-xl.active {
   font-family: Eccentric;
 }
 .navbar-custom .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
+  border-color: #E79DB3;
 }
 .navbar-custom .navbar-toggle {
-  background-color: #FFEB7E;
-  border-color: #FFEB7E;
-  font-family: Eccentric, "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #7AAC80;
+  border-color: #7AAC80;
+  font-family: 'Roboto Slab', "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: #7AAC80;
+  color: white;
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #7AAC80;
+  background-color: #F79DB3;
 }
 .navbar-custom .nav li a {
   font-family: Eccentric, "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -242,6 +282,12 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+}
+@media (max-width: 767px) {
+	.navbar-custom .navbar-brand {
+		position: relative;
+		top: 5px;
+	}
 }
 
 .bg-video {
@@ -311,10 +357,11 @@ header .intro-text .intro-heading {
 section {
   padding: 100px 0;
 }
-section h2.section-heading {
+section .section-heading {
+	font-family: Eccentric;
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -326,7 +373,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 40px 0;
+    padding: 40px 0px;
   }
 }
 .service-heading {
