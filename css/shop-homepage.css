@@ -1,11 +1,12 @@
-/*!
- * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
-    padding-top: 90px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 125px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+@media (max-height: 768px) {
+	body {
+		padding-top: 98px;
+
+		}
 }
 
 .slide-image {
@@ -22,16 +23,14 @@ body {
 }
 
 .caption {
-    height: 130px;
+	/* Only use this if you want the description to disappear
+	height: 130px;
     overflow: hidden;
-}
-
-.caption h4 {
-    white-space: nowrap;
+	*/
+	border-top: 1px solid #F0F0F0;
 }
 
 .thumbnail img {
-    width: 100%;
 }
 
 .ratings {

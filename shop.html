@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Shop Homepage - Start Bootstrap Template</title>
+    <title>Bumble | Shop</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -18,8 +18,7 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link href="css/agency.css" rel="stylesheet" type="text/css">
+    <link href="css/shop.css" rel="stylesheet" type="text/css">
 	<link href="css/hexagon.css" rel="stylesheet" type="text/css">
 	<link href="css/shop-homepage.css" rel="stylesheet" type="text/css">
 </head>
@@ -40,20 +39,26 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                    <li>
+                        <a href="index.html#page-top">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Shop</a>
+                        <a class="bumble-active" href="#shop">Shop</a>
+                    </li>
+                    <li class="dropdown-hover">
+						<a class="page-scroll" href="index.html#services">Services</a>
+					</li>
+                    <li>
+                        <a href="beesneeds.html">The Bees' Needs</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a href="index.html#about">What's the Buzz?</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">What's the Buzz?</a>
+                        <a href="index.html#team">Our Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a href="index.html#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -67,202 +72,262 @@
 
         <div class="row">
 
-            <div class="col-md-3">
-                <p class="lead">Shop Name</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Category 1</a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">Category 3</a>
-                </div>
+            <div class="col-xs-2 affix sidebar">
+                <p class="lead eccentric">Bumble Shop</p>
+				<nav id="left-scroll">
+					<ul class="nav nav-stacked">
+						<li><a class="page-scroll" style="border: 1px solid #F0F0F0; border-radius: 3px;" href="#honey">Honey</a></li>
+						<li><a class="page-scroll" style="border: 1px solid #F0F0F0; border-radius: 3px;" href="#skincare">Skincare</a></li>
+						<li><a class="page-scroll" style="border: 1px solid #F0F0F0; border-radius: 3px;" href="#lifestyle">Lifestyle</a></li>
+					</ul>
+				</nav>
             </div>
 
-            <div class="col-md-9">
-
-                <div class="row carousel-holder">
-
-                    <div class="col-md-12">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                                </div>
-                                <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>
-                        </div>
-                    </div>
-
+			<!-- KEEP ALL IMAGES 250px IN HEIGHT TO HAVE EVENLY SIZED ROWS. -->
+			
+            <div class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-3">
+				<!-- HONEY SECTION -->
+				
+				<!-- HONEY ROW 1 -->
+                <div id="honey" class="row">
+					<h1 class="eccentric center category">Honey</h1>
+					<div class="row">
+						<div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+							<div class="thumbnail">
+								<a href="appleblossom.html"><img src="img/products/apple2.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$14.00</h4>
+									<h4><a href="appleblossom.html">Apple Blossom Honey</a>
+									</h4>
+									<p>Harvested locally from apple orchards in Kern County. This light golden honey has a deliciously light, fresh taste.</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Apple+Blossom+Honey&price=14=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+					
+						<div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+							<div class="thumbnail">
+								<a href="clover.html"><img src="img/products/clover.jpg" alt=""/></a>
+								<div class="caption">
+									<h4 class="pull-right">$14.00</h4>
+									<h4><a href="clover.html">Clover Honey</a>
+									</h4>
+									<p>Our Clover Honey, one of our most popular flavors, possesses a pleasantly sweet and delicately mild taste and varies in color from white to light amber.</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Clover+Honey&price=14=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+					
+						<div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+							<div class="thumbnail">
+								<a href="orangeblossom.html"><img src="img/products/orangeblossom.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$14.00</h4>
+									<h4><a href="orangeblossom.html">Orange Blossom Honey</a>
+									</h4>
+									<p>Harvested during the spring months from local Kern County orange groves. Possesses a universally delicious, light citrus taste.</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Orange+Blossom+Honey&price=14=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>	
+					</div>
+					
+					<!-- HONEY ROW 2 -->
+					<div class="row">
+						<div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+							<div class="thumbnail">
+								<a href="safflower.html"><img src="img/products/safflower.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$14.00</h4>
+									<h4><a href="safflower.html">Safflower Honey</a>
+									</h4>
+									<p>Harvested from bees which feed primarily off of safflower nectar, this dark amber honey possesses a light and sweet milky flavor.</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Safflower+Honey&price=14=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+						<div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+							<div class="thumbnail">
+								<a href="wildflower.html"><img src="img/products/wildflower.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$14.00</h4>
+									<h4><a href="wildflower.html">Wildflower Honey</a>
+									</h4>
+									<p>Procured from a variety of wildflowers and plants that grow locally in Kern County during the summer months, this honey has a sweet and light taste.</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Wildflower+Honey&price=14=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+						<div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+							<div class="thumbnail">
+								<a href="honeycomb.html"><img src="img/products/honeycomb.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$18.00</h4>
+									<h4><a href="honeycomb.html">Honey Comb</a>
+									</h4>
+									<p>Our 100% natural and handmade beeswax bar soap, free of parabens and preservatives, will keep you squeaky clean and you smelling even better!</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Honey+Comb&price=18=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- HONEY ROW 3 -->
+					<div class="row">
+						<div class="product col-xs-4 col-xs-offset-2 col-sm-4 col-lg-4 col-md-4 col-lg-offset-2">
+							<div class="thumbnail">
+								<a href="honeystix.html"><img src="img/products/bumblesticks.png" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$5.00</h4>
+									<h4><a href="bumblestix.html">Honey Stix</a>
+									</h4>
+									<p>A delicious alternative to sugary candy! Lightweight and convenient to bring to lunch or work, these honey sticks — made with our popular clover honey — have no artificial colors or flavors!</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Honey+Stix&price=5=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+						<div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+							<div class="thumbnail">
+								<a href="whipped.html"><img src="img/products/whipped.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$12.00</h4>
+									<h4><a href="whipped.html">Whipped Honey</a>
+									</h4>
+									<p>Our whipped clover honey provides all the great taste of regular clover honey without the sticky mess of liquid honey. Perfect spread for bread, English muffins, or any snack!</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Whipped+Clover+Honey&price=12=&return=www.bumbleinc.us/shop.html#honey">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+					</div>
                 </div>
-
-                <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
-                                </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">12 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$74.99</h4>
-                                <h4><a href="#">Third Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">31 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$84.99</h4>
-                                <h4><a href="#">Fourth Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">6 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">$94.99</h4>
-                                <h4><a href="#">Fifth Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">18 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4><a href="#">Like this template?</a>
-                        </h4>
-                        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
-                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
-                    </div>
-
+				
+				<!-- SKIN CARE SECTION -->
+				<div id="skincare" class="row">
+					<h1 class="eccentric center category">Skincare</h1>
+					
+					<div class="row">
+						<div class="product col-xs-4 col-sm-3 col-lg-3 col-md-3">
+							<div class="thumbnail">
+								<a href="barsoap.html"><img src="img/products/barsoap.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$6.00</h4>
+									<h4><a href="barsoap.html">Beeswax Bar Soap</a>
+									</h4>
+									<p>Our 100% natural and handmade beeswax bar soap, free of parabens and preservatives, will keep you squeaky clean and you smelling even better!</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Bar+Soap&price=6=&return=www.bumbleinc.us/shop.html#skincare">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+						<div class="product col-xs-4 col-sm-3 col-lg-3 col-md-3">
+							<div class="thumbnail">
+								<a href="bodybutter.html"><img src="img/products/butter.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$9.00</h4>
+									<h4><a href="bodybutter.html">Body Butter</a>
+									</h4>
+									<p>Our whipped honey body butter, with an irresistibly sweet scent, is produced from locally grown wildflowers' extract. Our luxurious body butter will leave your skin feeling silky smooth and smelling great!</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Body+Butter&price=9=&return=www.bumbleinc.us/shop.html#skincare">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+						<div class="product col-xs-4 col-sm-3 col-lg-3 col-md-3">
+							<div class="thumbnail">
+								<a href="facemask.html"><img src="img/products/facemask.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$5.00</h4>
+									<h4><a href="facemask.html">Honey Hydrating Face Mask</a>
+									</h4>
+									<p>Our raw honey face mask, made from our organic, locally-sourced honey, will keep your skin feeling soft and smooth all day long.</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Honey-Hydrating+Face+Mask&price=5=&return=www.bumbleinc.us/shop.html#skincare">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+						<div class="product col-xs-4 col-sm-3 col-lg-3 col-md-3">
+							<div class="thumbnail">
+								<a href="lipbalm.html"><img src="img/products/lipbalm.jpg" alt=""></a>
+								<div class="caption">
+									<h4 class="pull-right">$2.00</h4>
+									<h4><a href="lipbalm.html">Lip Balm</a>
+									</h4>
+									<p>Our beeswax lip balm, infused with various essential oils, is made from our locally procured beeswax. It will keep your lips moisturized all day long!</p>
+									<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Lip+Balm&price=2=&return=www.bumbleinc.us/shop.html#skincare">ADD TO CART</a>
+								</div>
+							</div>
+						</div>
+					</div>
                 </div>
+				
+				<!-- LIFESTYLE SECTION -->
+				<div id="lifestyle" class="row">
+					<h1 class="eccentric center category">Lifestyle</h1>
+					
+                    <div class="product col-xs-4 col-xs-offset-2 col-sm-4 col-lg-4 col-md-4 col-lg-offset-2">
+                        <div class="thumbnail">
+                            <a href="seeds.html"><img src="img/products/seeds.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4 class="pull-right">$7.50</h4>
+                                <h4><a href="seeds.html">Bee-friendly Flower Starter Kit</a>
+                                </h4>
+                                <p>Designed for our urban consumers, our wildflower starter kits help attract bees and keep your garden both smelling and looking gorgeous!</p>
+								<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Bee-Friendly+Flower+Starter+Kit&price=7.5=&return=www.bumbleinc.us/shop.html#lifestyle">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="product col-xs-4 col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <a href="candle.html"><img src="img/products/candle.jpg" alt=""></a>
+                            <div class="caption">
+                                <h4 class="pull-right">$15.00</h4>
+                                <h4><a href="candle.html">Beeswax Candle</a>
+                                </h4>
+                                <p>Our handmade beeswax candle, made using our locally-procured beeswax, is paraffin and artificial-scent free. Our candles will fill your home with the sweet fragrance of honey.</p>
+								<a class="btn btn-md" href="http://ww8.aitsafe.com/cf/add.cfm?userid=A7418217&product=Beeswax+Candle&price=15=&return=www.bumbleinc.us/shop.html#lifestyle">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+				
             </div>
-
         </div>
 
     </div>
     <!-- /.container -->
 
-    <div class="container">
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
+    <footer style="border-top: 1px solid #F0F0F0;">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                <div class="col-md-5">
+                    <span class="copyright">Copyright &copy Bumble 2016</span>
+                </div>
+                <div class="col-md-2">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://mobile.twitter.com/bumblevei/" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/bumble.vei/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.pinterest.com/bumblevei/" target="_blank"><i class="fa fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <span class="copyright">This is an official Virtual Enterprises
+International firm website for educational purposes only for 2016-17</span>
                 </div>
             </div>
-        </footer>
-
-    </div>
+        </div>
+    </footer>
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
+    <script src="vendor/jquery/jquery.min.js" ></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 	<!-- Theme JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Plugin JavaScript -->
 	<script src="js/shop.js"></script>
-	
+
 
 </body>
 
