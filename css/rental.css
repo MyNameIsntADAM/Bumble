@@ -68,7 +68,7 @@ body {
 	height: 310px !important;
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
 .spacey-title {
 	color: #FCFCFC;
 	position: relative;
@@ -82,13 +82,11 @@ body {
 	font-family: 'Roboto Slab';
 	color: #FCFCFC;
 	position: relative;
-	padding-left: 200px;
 }
 }
 
 .larger {
 	font-size: 2em;
-	white-space: pre-line;
 }
 
 .text-muted {
@@ -97,7 +95,7 @@ body {
 .text-primary {
   color: #FFEB7E;
 }
-@media (max-height: 768px) {
+@media (max-width: 768px) {
 	.top-test {
 		visibility: hidden;
 		height: 0px;
@@ -111,16 +109,13 @@ body {
 	}
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
 .top {
 	height: 640px;
 	background: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-image: url(../img/parallax/beekeeper3.jpg);
-	shape-outside: polygon(0 100%, 0 0, 70% 0%, 90% 100%);
-	-webkit-clip-path: polygon(0 100%, 0 0, 69% 0%, 89% 100%);
-	clip-path: polygon(0 100%, 0 0, 70% 0%, 90% 100%);
 }
 }
 .middle {
