@@ -11,6 +11,22 @@ body {
   font-family: 'Roboto Slab';
 }
 
+.image-subtitle {
+	position: fixed; 
+	top: 150px; 
+	left: 25px; 
+	font-size: 2em; 
+	color: white;
+}
+
+.back {
+	z-index: 10;
+}
+
+.front {
+	z-index: 999;
+}
+
 .bumble-active {
 	background-color: #7AAC80;
 	color: white;
@@ -111,7 +127,7 @@ body {
 
 @media (min-width: 768px) {
 .top {
-	height: 640px;
+	height: 600px;
 	background: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
