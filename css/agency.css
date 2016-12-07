@@ -142,6 +142,7 @@ a:active,
 a.active {
   color: #E79DB3;
 }
+
 h1,
 h2,
 h3,
@@ -269,6 +270,7 @@ fieldset[disabled] .btn-lg.active {
 		font-size: 2em;
 	}
 }
+
 @media (min-width: 768px) {
 .btn-xl {
   color: white;
@@ -282,6 +284,10 @@ fieldset[disabled] .btn-lg.active {
   font-size: 2.5em;
   padding: 20px 40px;
 }
+#services-btn {
+`	border-color: #333333;
+}
+
 }
 .btn-xl:hover,
 .btn-xl:focus,
