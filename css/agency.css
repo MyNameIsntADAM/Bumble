@@ -20,6 +20,17 @@ textarea:-moz-placeholder { /* Firefox 18- */
 color: #323232 !important;
 font-size: 1.1em;  
 }
+
+@media(max-width: 768px) {	
+	.twitter-timeline {
+		max-height: 505px !important;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}	 
+}
+.twitter-timeline {
+	margin-top: 10px;
+}
  
 textarea::-moz-placeholder {  /* Firefox 19+ */
 color: #323232 !important;
@@ -88,7 +99,7 @@ font-size: 1.1em;
 
 .company-img {
 	width: 100%; 
-	border: #F79DB3 2px solid; 
+	border: #7AAC80 2px solid; 
 	border-radius: 4px;	
 }
 
@@ -284,8 +295,8 @@ fieldset[disabled] .btn-lg.active {
   font-size: 2.5em;
   padding: 20px 40px;
 }
-#services-btn {
-`	border-color: #333333;
+.services-btn {
+	border-color: #333333;
 }
 
 }
