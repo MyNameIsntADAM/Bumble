@@ -7,6 +7,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab';
+  background-color: #fff7cc;
 }
 /*
 	Form placeholder text color change!
@@ -347,11 +348,14 @@ fieldset[disabled] .btn-xl.active {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.center {
 		margin: auto;
 		width: 100%;
 		text-align: center;
+	}
+	#about {
+		margin-top: 80px;
 	}
 }
 

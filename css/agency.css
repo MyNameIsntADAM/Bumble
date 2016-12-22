@@ -31,7 +31,20 @@ font-size: 1.1em;
 .twitter-timeline {
 	margin-top: 10px;
 }
- 
+
+@media(max-width: 768px) {
+	.commercial {
+		width: 100%;
+		height: 186px;
+	}
+}
+
+@media(min-width: 768px) {
+	.commercial {
+		width: 100%;
+		height: 362px;
+	}
+}
 textarea::-moz-placeholder {  /* Firefox 19+ */
 color: #323232 !important;
 font-size: 1.1em;  
@@ -663,6 +676,14 @@ header .intro-text .intro-heading {
 		padding: 100px 0;
 	}
 }
+
+.section-subtitle {
+	font-size: 2.4em;
+	margin: 0 0 10px 0;
+	padding: 0px;
+	border-bottom: 1px solid #939393;
+}
+
 section .section-heading {
   font-family: Eccentric;
   font-size: 40px;
