@@ -15,18 +15,18 @@ textarea::-webkit-input-placeholder {
 color: #323232 !important;
 font-size: 1.1em;
 }
- 
+
 textarea:-moz-placeholder { /* Firefox 18- */
 color: #323232 !important;
-font-size: 1.1em;  
+font-size: 1.1em;
 }
 
-@media(max-width: 768px) {	
+@media(max-width: 768px) {
 	.twitter-timeline {
 		max-height: 505px !important;
 		margin-top: 10px;
 		margin-bottom: 5px;
-	}	 
+	}
 }
 .twitter-timeline {
 	margin-top: 10px;
@@ -47,51 +47,51 @@ font-size: 1.1em;
 }
 textarea::-moz-placeholder {  /* Firefox 19+ */
 color: #323232 !important;
-font-size: 1.1em;  
+font-size: 1.1em;
 }
- 
-textarea:-ms-input-placeholder {  
+
+textarea:-ms-input-placeholder {
 color: #323232 !important;
-font-size: 1.1em;  
+font-size: 1.1em;
 }
 
 input[type="email"]::-webkit-input-placeholder {
 color: #323232 !important;
 font-size: 1.1em;
 }
- 
+
 input[type="email"]:-moz-placeholder { /* Firefox 18- */
 color: #323232 !important;
-font-size: 1.1em; 
+font-size: 1.1em;
 }
- 
+
 input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
 color: #323232 !important;
-font-size: 1.1em;  
+font-size: 1.1em;
 }
- 
-input[type="email"]:-ms-input-placeholder {  
+
+input[type="email"]:-ms-input-placeholder {
 color: #323232 !important;
-font-size: 1.1em;  
+font-size: 1.1em;
 }
 input::-webkit-input-placeholder {
 color: #323232 !important;
 font-size: 1.1em;
 }
- 
+
 input:-moz-placeholder { /* Firefox 18- */
 color: #323232 !important;
-font-size: 1.1em; 
+font-size: 1.1em;
 }
- 
+
 input::-moz-placeholder {  /* Firefox 19+ */
 color: #323232 !important;
 font-size: 1.1em;
 }
- 
-input:-ms-input-placeholder {  
+
+input:-ms-input-placeholder {
 color: #323232 !important;
-font-size: 1.1em; 
+font-size: 1.1em;
 }
 /* Dropdown style */
 .dropdown-hover:hover > ul.dropdown-menu {
@@ -103,17 +103,17 @@ font-size: 1.1em;
 }
 
 .dropdown-list-item a:hover {
-	background-color: #5AAC80;	
+	background-color: #5AAC80;
 }
 
 .dropdown-list-item a:focus {
-	background-color: #5AAC80;		
+	background-color: #5AAC80;
 }
 
 .company-img {
-	width: 100%; 
-	border: #7AAC80 2px solid; 
-	border-radius: 4px;	
+	width: 100%;
+	border: #7AAC80 2px solid;
+	border-radius: 4px;
 }
 
 .eccentric {
@@ -413,7 +413,7 @@ fieldset[disabled] .btn-xl.active {
   font-family: Eccentric;
 }
 .navbar-custom .navbar-collapse {
-  border-color: #E79DB3;	
+  border-color: #E79DB3;
 }
 .navbar-custom .navbar-toggle {
   background-color: #7AAC80;
@@ -550,7 +550,7 @@ fieldset[disabled] .btn-xl.active {
   margin: 0 auto;
   border: 7px solid white;
 }
-	
+
 .stacked {
 	list-style: none;
 	padding-left: 0px;

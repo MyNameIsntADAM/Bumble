@@ -786,8 +786,10 @@ section h3.section-subheading {
   clear: both;
 }
 .timeline > li .timeline-panel {
-  width: 100%;
+  width: 75%;
   float: right;
+	background-color: white;
+	border-radius: 4px;
   padding: 0 20px 0 100px;
   position: relative;
   text-align: left;
@@ -841,6 +843,9 @@ section h3.section-subheading {
 }
 .timeline > li:last-child {
   margin-bottom: 0;
+}
+.timeline-heading {
+	padding-top: 15px;
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
