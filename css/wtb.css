@@ -8,6 +8,18 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto Slab';
 }
+.title-underline-dotted {
+	 font-size: 56px;
+	 color: white;
+	 margin-bottom: 50px !important;
+	 padding-bottom: 10px;
+	 border-bottom: 4px dotted white;
+}
+@media(max-width: 768px) {
+	.mobile-hide {
+		display: none;
+	}
+}
 /*
 	Form placeholder text color change!
 */
@@ -785,6 +797,10 @@ section h3.section-subheading {
 .timeline > li:after {
   clear: both;
 }
+@media(max-width: 768px) {
+
+
+}
 .timeline > li .timeline-panel {
   width: 75%;
   float: right;
@@ -869,7 +885,7 @@ section h3.section-subheading {
   .timeline > li .timeline-panel {
     width: 41%;
     float: left;
-    padding: 0 20px 20px 30px;
+    padding: 0 0px 20px 10px;
     text-align: right;
   }
   .timeline > li .timeline-image {
