@@ -15,6 +15,22 @@ body {
 	 padding-bottom: 10px;
 	 border-bottom: 4px dotted white;
 }
+
+.btn-sm:hover {
+	color: white;
+	background-color: #FF9DB3;
+}
+
+.btn-sm {
+	font-family: 'Eccentric';
+	border-radius: 4px;
+	background-color: #F79DB3;
+	color: white;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+}
+
 @media(max-width: 768px) {
 	.mobile-hide {
 		display: none;
@@ -797,16 +813,13 @@ section h3.section-subheading {
 .timeline > li:after {
   clear: both;
 }
-@media(max-width: 768px) {
 
-
-}
 .timeline > li .timeline-panel {
   width: 75%;
   float: right;
 	background-color: white;
 	border-radius: 4px;
-  padding: 0 20px 0 100px;
+	padding: 0 20px 10px 100px;
   position: relative;
   text-align: left;
 }
@@ -843,7 +856,7 @@ section h3.section-subheading {
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   text-align: left;
-  padding: 0 20px 0 100px;
+  padding: 0 20px 10px 100px;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
@@ -872,7 +885,7 @@ section h3.section-subheading {
 }
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 @media (min-width: 768px) {
   .timeline:before {
