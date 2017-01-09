@@ -10,6 +10,9 @@ body {
 .disappear {
 	visibility: hidden;
 }
+.lead {
+	visibility: hidden;
+}
 }
 
 .ratings {

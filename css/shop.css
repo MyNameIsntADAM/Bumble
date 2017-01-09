@@ -223,6 +223,11 @@ fieldset[disabled] .btn-xl.active {
 }
 }
 
+.btn:hover {
+	background-color: #4CAC80;
+	color: white;
+}
+
 .dropdown-hover:hover > ul.dropdown-menu {
 	display: block;
 }
